@@ -10,8 +10,8 @@ const AuthenticationApp = () => {
         <div className='main-app'>
             This is AuthenticationApp
             <button onClick={() => {
-                // window.localStorage.removeItem("token"); navigate("/")
-                http.get("/auth/refresh-token")
+               navigate("/")
+//                 http.get("/auth/refresh-token")
             }
             }>Log out</button>
         </div>
